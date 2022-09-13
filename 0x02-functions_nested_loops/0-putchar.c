@@ -1,23 +1,20 @@
-#include <unistd.h>
+#include "holberton.h"
 /**
- * main -Entry point
- * 
- * Description:A program that prints_putchar, followed by a new line.
+ * main - Entry point
  *
- * Return: always 0 (success)
- * 
+ * Return: Always 0 (Success)
  */
-#include "main.h"
 int main(void)
 {
-	char k [] ="_putchar";
-	int i = 0;
-	
-	while (k[i] <= 8)
+	char *sh = "Holberton";
+
+	while (*sh)
 	{
-		_putchar(k[i]);
-		i++
+		_putchar(*sh);
+		sh++;
 	}
-	_putchar ('/n';
+	_putchar('\n');
+
 	return (0);
 }
+
