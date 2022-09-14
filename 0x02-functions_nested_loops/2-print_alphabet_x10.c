@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- * print_alphabet_x10 - prints the alphabet x10
+ * print_alphabet_x10 -  prints the alphabet x10
  *
  * Return: 0
  *
@@ -10,18 +9,14 @@
 
 void print_alphabet_x10(void)
 {
-	int wy;
-	int wy2;
+	char b, i;
 
-	for (wy = 0; wy <= 9; wy++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (wy2 = 'a'; wy2 <= 'z'; wy2++
+		for (c = 'a'; c <= 'z'; c++)
 		{
-
-		_putchar(wy2);
+			_putchar(c);
 		}
-	
 		_putchar('\n');
-
-          }
+	}
 }
