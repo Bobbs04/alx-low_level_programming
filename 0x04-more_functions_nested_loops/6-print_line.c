@@ -1,21 +1,18 @@
 #include "main.h"
 
+
 /**
- * print_square - prints hashes squares.
- * @size: size of the square.
+ * print_line - prints straight line n times.
+ * @n: times straight line is printed.
  * Return: no return.
  */
-void print_square(int size)
+void print_line(int n)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < size; j++)
-		{
-			_putchar(35);
-		}
-		if (i != size - 1)
-			_putchar('\n');
+		_putchar(95);
 	}
 	_putchar('\n');
+}
